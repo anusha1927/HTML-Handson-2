@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Assignment2</title>
+	</head>
+	<body>
+		<h1>FORMS</h1>
+		<form action="./index3.html">
+			<label for="name">Name</label>
+			<input
+				type="text"
+				id="name"
+				name="name"
+				value=""
+				placeholder="name"
+				required />
+			<br /><br />
+
+			<label for="email">Email Address</label>
+			<input
+				type="email"
+				id="email"
+				name="email"
+				value=""
+				placeholder="email"
+				required />
+			<br /><br />
+
+			<label for="pass">Password</label>
+			<input
+				type="password"
+				id="pass"
+				name="password"
+				value=""
+				placeholder="password"
+				required />
+			<br />
+
+			<p>Language</p>
+
+			<input type="radio" id="react" name="language" value="react" required />
+			<label for="react">React</label>
+			<br />
+
+			<input type="radio" id="angular" name="language" value="angular" />
+			<label for="angular">Angular</label>
+			<br />
+
+			<input type="radio" id="vue" name="language" value="vue" />
+			<label for="vue">Vue</label>
+			<br />
+
+			<p>Course</p>
+
+			<input type="checkbox" id="mern" name="course1" value="mern" required />
+			<label for="mern">MERN</label>
+			<br />
+
+			<input type="checkbox" id="mean" name="course2" value="mean" />
+			<label for="mean">MEAN</label>
+			<br />
+
+			<input type="checkbox" id="mevn" name="course3" value="mevn" />
+			<label for="mevn">MEVN</label>
+			<br /><br />
+
+			Field:<br />
+
+			<select id="course" name="course">
+				<option value="frontend">Front End</option>
+				<option value="backend">Back End</option>
+				<option value="fullstack">Full Stack</option>
+			</select>
+			<br /><br />
+
+			<textarea
+				cols="30"
+				rows="10"
+				name="description"
+				id="description"
+				value=""
+				required></textarea>
+			<br /><br />
+
+			<label for="phone">Phone Number</label>
+			<input
+				type="tel"
+				id="phone"
+				name="phone"
+				value=""
+				pattern="[0-9]{10}"
+				required />
+
+			<input type="submit" value="submit" />
+		</form>
+
+		<h1>TABLES</h1>
+		<a href="./index2.html" target="_self">Click Here</a>
+	</body>
+</html>
